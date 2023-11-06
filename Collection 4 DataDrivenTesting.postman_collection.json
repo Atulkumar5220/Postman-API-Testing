@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "10e83c08-bc86-4b0a-a0dd-011ca7a6d0fd",
+		"name": "Collection 4 DataDrivenTesting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28783549"
+	},
+	"item": [
+		{
+			"name": "Post Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

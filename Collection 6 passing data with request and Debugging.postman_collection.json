@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "e920c46a-5a0d-46cc-aa80-b211cc58fd0d",
+		"name": "Collection 6 passing data with request and Debugging",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28783549"
+	},
+	"item": [
+		{
+			"name": "GetRequest",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "mayheader",
+						"value": "122",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://httpbin.org/get?naame=atul&age=30&email=atulkumar22@gmil.com",
+					"protocol": "http",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "naame",
+							"value": "atul"
+						},
+						{
+							"key": "age",
+							"value": "30"
+						},
+						{
+							"key": "email",
+							"value": "atulkumar22@gmil.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://httpbin.org/status/200",
+					"protocol": "http",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"status",
+						"200"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
